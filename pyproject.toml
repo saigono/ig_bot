@@ -6,8 +6,8 @@ authors = ["Danil Ineev <sai@notreally.media>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-python-telegram-bot = "^13.1"
-instaloader = "^4.5.5"
+python-telegram-bot = "^13.5"
+instaloader = "^4.7.1"
 
 [tool.poetry.dev-dependencies]
 pylint = "^2.6.0"

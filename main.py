@@ -57,6 +57,9 @@ def download_url(update, context):
 
 def main():
     token = os.environ.get('TELEGRAM_BOT_TOKEN')
+    user = os.environ.get('IG_USER')
+    passwd = os.environ.get('IG_PASSWD')
+    INSTALOADER.login(user, passwd)
     
     logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                      level=logging.INFO)
